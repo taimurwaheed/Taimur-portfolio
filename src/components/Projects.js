@@ -22,7 +22,7 @@ export default function Projects() {
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
-            <a key={project.image} className="sm:w-1/2 w-100 p-4">
+            <a key={project.image} className="p-4 sm:w-1/2 w-full">
               <div className="flex relative">
                 <img
                   alt="gallery"

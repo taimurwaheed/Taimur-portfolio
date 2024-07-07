@@ -18,21 +18,23 @@ export default function Navbar() {
             Skills
           </a>
         </nav>
-        <a
-          href="/Muhammad-Taimur-CV.pdf" // Make sure this matches the path of your CV file
-          download
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
-        >
-          Download CV
-          <ArrowRightIcon className="w-4 h-4 ml-1" />
-        </a>
-        <a
-          href="#contact"
-          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
-        >
-          Hire Me
-          <ArrowRightIcon className="w-4 h-4 ml-1" />
-        </a>
+        <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4">
+          <a
+            href="/Muhammad-Taimur-CV.pdf"
+            download
+            className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+          >
+            Download CV
+            <ArrowRightIcon className="w-4 h-4 ml-1" />
+          </a>
+          <a
+            href="#contact"
+            className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+          >
+            Hire Me
+            <ArrowRightIcon className="w-4 h-4 ml-1" />
+          </a>
+        </div>
       </div>
     </header>
   );
