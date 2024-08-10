@@ -4,6 +4,8 @@ export const skills = [
   "HTML",
   "CSS",
   "Python",
+  "WordPress",
+  "Git",
   "MySQL",
   "Java",
   "C++",
